@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* STYLING AV HEADER ELEMENT - LOGO OG HAMBURGER */
 header {
     position: absolute;
     top: 0;
@@ -42,6 +43,8 @@ header .toggle img {
     max-width: 100%;
 
 }
+
+/* STYLING AV BANNER - HERO ELEMENT MED VIDEO OG GREEN BANNER*/
 
 .banner {
     position: relative;
@@ -79,6 +82,9 @@ header .toggle img {
     opacity: 0.20;
     pointer-events: none;
 }
+
+
+/* STYLING AV HEADER - TEKSTBLOCK OG BUTTON */
 
 .banner .textBox {
     position: relative;
@@ -138,5 +144,18 @@ header .toggle img {
     height: 90%;
     opacity: 96%;
     z-index: 10000;
-
 }
+
+
+/* SOCIAL MEDIA ICONS */
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
