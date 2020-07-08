@@ -142,7 +142,7 @@ header .toggle img {
     position: absolute;
     bottom: 0;
     height: 90%;
-    opacity: 96%;
+    opacity: 88%;
     z-index: 10000;
 }
 
@@ -185,7 +185,8 @@ header .toggle img {
         overflow: hidden;
     }
     .banner:before {
-        width: 300px;
+        width: 320px;
+        filter: opacity(0.4);
         transform: skewX(-25deg) translate(50%);
     }
 
