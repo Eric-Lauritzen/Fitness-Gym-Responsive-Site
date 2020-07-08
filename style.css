@@ -114,13 +114,12 @@ header .toggle img {
 }
 
 .banner .textBox a:hover{
-    transform: scale(1.08) translateY(-5px);
+    transform: scale(1.08) translateY(-4px);
 }
 
 .banner .textBox a:hover{
     background-color:rgb(68, 248, 188);
 }
-
 
 .banner .imgBox{
 
