@@ -78,14 +78,24 @@ header .toggle img {
     object-fit: cover;
     opacity: 0.25;
     pointer-events: none;
-
-
 }
 
 .banner .textBox {
     position: relative;
     max-width: 600px;
     z-index: 2;
+}
+
+.banner .textBox h2{
+    color: #fff;
+    font-size: 3em;
+}
+
+.banner .textBox p{
+    color: #fff;
+    font-size: 1.1em;
+    margin: 5px 0 25px;
+    line-height: 1.6;
 }
 
 .banner .imgBox{
@@ -103,6 +113,7 @@ header .toggle img {
     position: absolute;
     bottom: 0;
     height: 90%;
+    opacity: 96%;
     z-index: 10000;
 
 }
