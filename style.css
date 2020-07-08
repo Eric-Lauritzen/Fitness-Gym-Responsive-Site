@@ -149,6 +149,15 @@ header .toggle img {
 
 /* SOCIAL MEDIA ICONS */
 
+.sci{
+    position: absolute;
+    bottom: 20px;
+    letter-spacing: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sci li{
     list-style: none;
 }
@@ -158,4 +167,9 @@ header .toggle img {
     margin-right: 15px;
 }
 
+.sci li a img{
+    transform: scale(0.5);
+    filter: invert(1);
+}
 
+/* MEDIA QUERIES STARTS HERE */
